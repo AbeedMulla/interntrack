@@ -68,14 +68,3 @@ It combines an application tracker with a resume–job matching tool, so everyth
 - **Resume Parsing:** pdf.js  
 - **Icons:** Lucide React  
 
----
-
-##  How It Works
-
-### Authentication
-Firebase Authentication handles signup and login.  
-Once logged in, the user ID is used to scope all Firestore data.
-
-### Firestore Data Model
-Each user has their own applications stored like this:
-
